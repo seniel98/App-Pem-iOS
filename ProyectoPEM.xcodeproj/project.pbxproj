@@ -3,16 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		760BE7ED0B4A486BD12850AC /* Pods_ProyectoPEM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB676B7CCA5C50CDAE796DF1 /* Pods_ProyectoPEM.framework */; };
 		D43E4A6023B131300039C254 /* GuestProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4A5F23B131300039C254 /* GuestProfileViewController.swift */; };
 		D43E4A6223B1315C0039C254 /* GuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4A6123B1315C0039C254 /* GuestViewController.swift */; };
 		D43E4A6423B131730039C254 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4A6323B131730039C254 /* SignInViewController.swift */; };
 		D43E4A6623B131830039C254 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4A6523B131830039C254 /* SignUpViewController.swift */; };
 		D43E4A6823B131BD0039C254 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4A6723B131BD0039C254 /* UserProfileViewController.swift */; };
 		D43E4A6A23B131CC0039C254 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4A6923B131CC0039C254 /* UserViewController.swift */; };
+		D44210EA23B4CCB200107B65 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D44210E923B4CCB200107B65 /* GoogleService-Info.plist */; };
+		D44210EC23B4CF8F00107B65 /* GuestSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210EB23B4CF8F00107B65 /* GuestSearchModel.swift */; };
+		D44210EE23B4CFAE00107B65 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210ED23B4CFAE00107B65 /* LoginModel.swift */; };
+		D44210F223B4CFDA00107B65 /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210F123B4CFDA00107B65 /* RegisterModel.swift */; };
+		D44210F423B4D00D00107B65 /* GuestViewerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210F323B4D00D00107B65 /* GuestViewerModel.swift */; };
+		D44210F623B4D05100107B65 /* UserSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210F523B4D05100107B65 /* UserSearchModel.swift */; };
+		D44210F823B4D06800107B65 /* UserViewerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210F723B4D06800107B65 /* UserViewerModel.swift */; };
+		D44210FA23B4D08100107B65 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210F923B4D08100107B65 /* HomeModel.swift */; };
 		D4438B9223B0EA7600EDE0DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4438B9123B0EA7600EDE0DB /* AppDelegate.swift */; };
 		D4438B9623B0EA7600EDE0DB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4438B9523B0EA7600EDE0DB /* HomeViewController.swift */; };
 		D4438B9923B0EA7600EDE0DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4438B9723B0EA7600EDE0DB /* Main.storyboard */; };
@@ -21,12 +30,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CED209314C17F1410FA42E0 /* Pods-ProyectoPEM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoPEM.debug.xcconfig"; path = "Target Support Files/Pods-ProyectoPEM/Pods-ProyectoPEM.debug.xcconfig"; sourceTree = "<group>"; };
 		D43E4A5F23B131300039C254 /* GuestProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestProfileViewController.swift; sourceTree = "<group>"; };
 		D43E4A6123B1315C0039C254 /* GuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestViewController.swift; sourceTree = "<group>"; };
 		D43E4A6323B131730039C254 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		D43E4A6523B131830039C254 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D43E4A6723B131BD0039C254 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		D43E4A6923B131CC0039C254 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		D44210E923B4CCB200107B65 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D44210EB23B4CF8F00107B65 /* GuestSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestSearchModel.swift; sourceTree = "<group>"; };
+		D44210ED23B4CFAE00107B65 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		D44210F123B4CFDA00107B65 /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		D44210F323B4D00D00107B65 /* GuestViewerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestViewerModel.swift; sourceTree = "<group>"; };
+		D44210F523B4D05100107B65 /* UserSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchModel.swift; sourceTree = "<group>"; };
+		D44210F723B4D06800107B65 /* UserViewerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewerModel.swift; sourceTree = "<group>"; };
+		D44210F923B4D08100107B65 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		D4438B8E23B0EA7600EDE0DB /* ProyectoPEM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoPEM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4438B9123B0EA7600EDE0DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4438B9523B0EA7600EDE0DB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +52,8 @@
 		D4438B9A23B0EA7900EDE0DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4438B9D23B0EA7900EDE0DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4438B9F23B0EA7900EDE0DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7BC40F767EA16BFF39B7958 /* Pods-ProyectoPEM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoPEM.release.xcconfig"; path = "Target Support Files/Pods-ProyectoPEM/Pods-ProyectoPEM.release.xcconfig"; sourceTree = "<group>"; };
+		FB676B7CCA5C50CDAE796DF1 /* Pods_ProyectoPEM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyectoPEM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,12 +61,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				760BE7ED0B4A486BD12850AC /* Pods_ProyectoPEM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5737598ADA4C5894533AEC61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CED209314C17F1410FA42E0 /* Pods-ProyectoPEM.debug.xcconfig */,
+				D7BC40F767EA16BFF39B7958 /* Pods-ProyectoPEM.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D43E4A5D23B12BA10039C254 /* User */ = {
 			isa = PBXGroup;
 			children = (
@@ -67,11 +97,33 @@
 			path = Guest;
 			sourceTree = "<group>";
 		};
+		D44210EF23B4CFBC00107B65 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				D44210ED23B4CFAE00107B65 /* LoginModel.swift */,
+				D44210F123B4CFDA00107B65 /* RegisterModel.swift */,
+				D44210F523B4D05100107B65 /* UserSearchModel.swift */,
+				D44210F723B4D06800107B65 /* UserViewerModel.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		D44210F023B4CFC700107B65 /* Guest */ = {
+			isa = PBXGroup;
+			children = (
+				D44210EB23B4CF8F00107B65 /* GuestSearchModel.swift */,
+				D44210F323B4D00D00107B65 /* GuestViewerModel.swift */,
+			);
+			path = Guest;
+			sourceTree = "<group>";
+		};
 		D4438B8523B0EA7600EDE0DB = {
 			isa = PBXGroup;
 			children = (
 				D4438B9023B0EA7600EDE0DB /* ProyectoPEM */,
 				D4438B8F23B0EA7600EDE0DB /* Products */,
+				5737598ADA4C5894533AEC61 /* Pods */,
+				FB8B5E503E6F8E1184D12436 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +138,7 @@
 		D4438B9023B0EA7600EDE0DB /* ProyectoPEM */ = {
 			isa = PBXGroup;
 			children = (
+				D44210E923B4CCB200107B65 /* GoogleService-Info.plist */,
 				D4438B9123B0EA7600EDE0DB /* AppDelegate.swift */,
 				D4438BA623B0EE4900EDE0DB /* Controllers */,
 				D4438BA523B0EE3A00EDE0DB /* Models */,
@@ -100,6 +153,9 @@
 		D4438BA523B0EE3A00EDE0DB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D44210F023B4CFC700107B65 /* Guest */,
+				D44210EF23B4CFBC00107B65 /* User */,
+				D44210F923B4D08100107B65 /* HomeModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -114,6 +170,14 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		FB8B5E503E6F8E1184D12436 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB676B7CCA5C50CDAE796DF1 /* Pods_ProyectoPEM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4438BA223B0EA7900EDE0DB /* Build configuration list for PBXNativeTarget "ProyectoPEM" */;
 			buildPhases = (
+				6AE68444F76A7B51B123BEFE /* [CP] Check Pods Manifest.lock */,
 				D4438B8A23B0EA7600EDE0DB /* Sources */,
 				D4438B8B23B0EA7600EDE0DB /* Frameworks */,
 				D4438B8C23B0EA7600EDE0DB /* Resources */,
+				F07EE604C3B581E9FFFB533C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,12 +239,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4438B9E23B0EA7900EDE0DB /* LaunchScreen.storyboard in Resources */,
+				D44210EA23B4CCB200107B65 /* GoogleService-Info.plist in Resources */,
 				D4438B9B23B0EA7900EDE0DB /* Assets.xcassets in Resources */,
 				D4438B9923B0EA7600EDE0DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AE68444F76A7B51B123BEFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProyectoPEM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F07EE604C3B581E9FFFB533C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoPEM/Pods-ProyectoPEM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoPEM/Pods-ProyectoPEM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProyectoPEM/Pods-ProyectoPEM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D4438B8A23B0EA7600EDE0DB /* Sources */ = {
@@ -189,7 +298,14 @@
 				D43E4A6A23B131CC0039C254 /* UserViewController.swift in Sources */,
 				D43E4A6023B131300039C254 /* GuestProfileViewController.swift in Sources */,
 				D43E4A6823B131BD0039C254 /* UserProfileViewController.swift in Sources */,
+				D44210F823B4D06800107B65 /* UserViewerModel.swift in Sources */,
 				D4438B9623B0EA7600EDE0DB /* HomeViewController.swift in Sources */,
+				D44210EE23B4CFAE00107B65 /* LoginModel.swift in Sources */,
+				D44210F623B4D05100107B65 /* UserSearchModel.swift in Sources */,
+				D44210FA23B4D08100107B65 /* HomeModel.swift in Sources */,
+				D44210F423B4D00D00107B65 /* GuestViewerModel.swift in Sources */,
+				D44210F223B4CFDA00107B65 /* RegisterModel.swift in Sources */,
+				D44210EC23B4CF8F00107B65 /* GuestSearchModel.swift in Sources */,
 				D4438B9223B0EA7600EDE0DB /* AppDelegate.swift in Sources */,
 				D43E4A6423B131730039C254 /* SignInViewController.swift in Sources */,
 				D43E4A6223B1315C0039C254 /* GuestViewController.swift in Sources */,
@@ -334,6 +450,7 @@
 		};
 		D4438BA323B0EA7900EDE0DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CED209314C17F1410FA42E0 /* Pods-ProyectoPEM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -352,6 +469,7 @@
 		};
 		D4438BA423B0EA7900EDE0DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7BC40F767EA16BFF39B7958 /* Pods-ProyectoPEM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
