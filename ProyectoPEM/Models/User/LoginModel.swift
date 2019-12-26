@@ -7,7 +7,20 @@
 //
 
 import Foundation
+import Firebase
+import FirebaseAuth
 
 class LoginModel{
     
+    
+    func login(email: String, password:String, completion: @escaping (Bool, Error?) -> Void){
+        Auth.auth().signIn(withEmail: email, password: password) {(authResult,error) in
+            if(error != nil){
+                //Login fails
+                completion(true,error)
+            }else{
+               completion(false,error)
+            }
+        }
+    }
 }
