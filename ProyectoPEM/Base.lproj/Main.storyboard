@@ -90,7 +90,7 @@
             <objects>
                 <viewController id="We7-fY-sAC" customClass="SignInViewController" customModule="ProyectoPEM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xqd-lF-WZ5">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="BIOLAB APP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPA-Ek-3vL">
@@ -100,7 +100,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nJj-wT-ZWq">
-                                <rect key="frame" x="148" y="384" width="79" height="39"/>
+                                <rect key="frame" x="148" y="428" width="79" height="39"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39" id="gYM-e9-G0F"/>
@@ -110,7 +110,7 @@
                                 </state>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insert your email" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="T24-yL-SLu">
-                                <rect key="frame" x="60" y="196" width="255" height="34"/>
+                                <rect key="frame" x="60" y="240" width="255" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="KF5-zf-eXt"/>
                                 </constraints>
@@ -119,7 +119,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="done" enablesReturnKeyAutomatically="YES" textContentType="email"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insert your password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HFV-X2-mmL">
-                                <rect key="frame" x="60" y="272" width="255" height="34"/>
+                                <rect key="frame" x="60" y="316" width="255" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="QIu-8j-K6w"/>
                                 </constraints>
@@ -180,17 +180,17 @@
             <objects>
                 <viewController id="ZHr-D6-AlT" customClass="SignUpViewController" customModule="ProyectoPEM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="F2L-tO-cBd">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insert email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dSp-En-Ah9">
-                                <rect key="frame" x="69" y="140" width="237" height="34"/>
+                                <rect key="frame" x="69" y="184" width="237" height="34"/>
                                 <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="continue" enablesReturnKeyAutomatically="YES" textContentType="email"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lmx-g3-25M">
-                                <rect key="frame" x="147" y="534" width="81" height="37"/>
+                                <rect key="frame" x="147" y="554" width="81" height="37"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="hVz-aq-2hh"/>
@@ -200,17 +200,17 @@
                                     <color key="titleColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="We7-fY-sAC" kind="show" identifier="registerDoneSegue" id="AF2-Nz-5zI"/>
+                                    <action selector="signUpPressed:" destination="ZHr-D6-AlT" eventType="touchUpInside" id="ulk-Xz-bkW"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Insert password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C7P-Pk-d9c">
-                                <rect key="frame" x="69" y="248" width="237" height="34"/>
+                                <rect key="frame" x="69" y="292" width="237" height="34"/>
                                 <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="continue" enablesReturnKeyAutomatically="YES" textContentType="password"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Repeat password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oKw-AF-9Cc">
-                                <rect key="frame" x="69" y="356" width="237" height="34"/>
+                                <rect key="frame" x="69" y="400" width="237" height="34"/>
                                 <color key="textColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES" textContentType="password"/>
@@ -316,7 +316,4 @@
             <point key="canvasLocation" x="2044" y="678.71064467766121"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="AF2-Nz-5zI"/>
-    </inferredMetricsTieBreakers>
 </document>
