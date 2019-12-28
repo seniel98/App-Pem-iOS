@@ -12,6 +12,8 @@ class UserViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.title = "User Viewer"
 
         // Do any additional setup after loading the view.
     }

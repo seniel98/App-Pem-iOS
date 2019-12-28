@@ -16,6 +16,8 @@ class SignUpViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationItem.title = "Sign Up"
+        
         //Commands that close the keyboard tapping anywhere outside the keyboard
         let tap = UITapGestureRecognizer(target: self.view, action:#selector(UIView.endEditing))
         view.addGestureRecognizer(tap)

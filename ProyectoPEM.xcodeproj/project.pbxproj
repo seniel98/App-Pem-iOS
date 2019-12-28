@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		760BE7ED0B4A486BD12850AC /* Pods_ProyectoPEM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB676B7CCA5C50CDAE796DF1 /* Pods_ProyectoPEM.framework */; };
+		D43DF36B23B7C34C00AE4A2F /* TableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43DF36A23B7C34C00AE4A2F /* TableData.swift */; };
 		D43E4A6023B131300039C254 /* GuestProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4A5F23B131300039C254 /* GuestProfileViewController.swift */; };
 		D43E4A6223B1315C0039C254 /* GuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4A6123B1315C0039C254 /* GuestViewController.swift */; };
 		D43E4A6423B131730039C254 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43E4A6323B131730039C254 /* SignInViewController.swift */; };
@@ -19,7 +20,7 @@
 		D44210EE23B4CFAE00107B65 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210ED23B4CFAE00107B65 /* LoginModel.swift */; };
 		D44210F223B4CFDA00107B65 /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210F123B4CFDA00107B65 /* RegisterModel.swift */; };
 		D44210F423B4D00D00107B65 /* GuestViewerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210F323B4D00D00107B65 /* GuestViewerModel.swift */; };
-		D44210F623B4D05100107B65 /* UserSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210F523B4D05100107B65 /* UserSearchModel.swift */; };
+		D44210F623B4D05100107B65 /* UserProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210F523B4D05100107B65 /* UserProfileModel.swift */; };
 		D44210F823B4D06800107B65 /* UserViewerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210F723B4D06800107B65 /* UserViewerModel.swift */; };
 		D44210FA23B4D08100107B65 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210F923B4D08100107B65 /* HomeModel.swift */; };
 		D4438B9223B0EA7600EDE0DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4438B9123B0EA7600EDE0DB /* AppDelegate.swift */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		0CED209314C17F1410FA42E0 /* Pods-ProyectoPEM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoPEM.debug.xcconfig"; path = "Target Support Files/Pods-ProyectoPEM/Pods-ProyectoPEM.debug.xcconfig"; sourceTree = "<group>"; };
+		D43DF36A23B7C34C00AE4A2F /* TableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableData.swift; sourceTree = "<group>"; };
 		D43E4A5F23B131300039C254 /* GuestProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestProfileViewController.swift; sourceTree = "<group>"; };
 		D43E4A6123B1315C0039C254 /* GuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestViewController.swift; sourceTree = "<group>"; };
 		D43E4A6323B131730039C254 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +44,7 @@
 		D44210ED23B4CFAE00107B65 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		D44210F123B4CFDA00107B65 /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
 		D44210F323B4D00D00107B65 /* GuestViewerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestViewerModel.swift; sourceTree = "<group>"; };
-		D44210F523B4D05100107B65 /* UserSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchModel.swift; sourceTree = "<group>"; };
+		D44210F523B4D05100107B65 /* UserProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileModel.swift; sourceTree = "<group>"; };
 		D44210F723B4D06800107B65 /* UserViewerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewerModel.swift; sourceTree = "<group>"; };
 		D44210F923B4D08100107B65 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		D4438B8E23B0EA7600EDE0DB /* ProyectoPEM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoPEM.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,7 +104,7 @@
 			children = (
 				D44210ED23B4CFAE00107B65 /* LoginModel.swift */,
 				D44210F123B4CFDA00107B65 /* RegisterModel.swift */,
-				D44210F523B4D05100107B65 /* UserSearchModel.swift */,
+				D44210F523B4D05100107B65 /* UserProfileModel.swift */,
 				D44210F723B4D06800107B65 /* UserViewerModel.swift */,
 			);
 			path = User;
@@ -146,6 +148,7 @@
 				D4438B9A23B0EA7900EDE0DB /* Assets.xcassets */,
 				D4438B9C23B0EA7900EDE0DB /* LaunchScreen.storyboard */,
 				D4438B9F23B0EA7900EDE0DB /* Info.plist */,
+				D43DF36A23B7C34C00AE4A2F /* TableData.swift */,
 			);
 			path = ProyectoPEM;
 			sourceTree = "<group>";
@@ -301,7 +304,7 @@
 				D44210F823B4D06800107B65 /* UserViewerModel.swift in Sources */,
 				D4438B9623B0EA7600EDE0DB /* HomeViewController.swift in Sources */,
 				D44210EE23B4CFAE00107B65 /* LoginModel.swift in Sources */,
-				D44210F623B4D05100107B65 /* UserSearchModel.swift in Sources */,
+				D44210F623B4D05100107B65 /* UserProfileModel.swift in Sources */,
 				D44210FA23B4D08100107B65 /* HomeModel.swift in Sources */,
 				D44210F423B4D00D00107B65 /* GuestViewerModel.swift in Sources */,
 				D44210F223B4CFDA00107B65 /* RegisterModel.swift in Sources */,
@@ -309,6 +312,7 @@
 				D4438B9223B0EA7600EDE0DB /* AppDelegate.swift in Sources */,
 				D43E4A6423B131730039C254 /* SignInViewController.swift in Sources */,
 				D43E4A6223B1315C0039C254 /* GuestViewController.swift in Sources */,
+				D43DF36B23B7C34C00AE4A2F /* TableData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

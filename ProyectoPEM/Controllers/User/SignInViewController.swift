@@ -12,8 +12,12 @@ class SignInViewController: UIViewController {
 
     @IBOutlet weak var emailTxtField: UITextField!
     @IBOutlet weak var pwdTxtField: UITextField!
+    
+    var doSegue = false
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.title = "Sign In"
         
         //Commands that close the keyboard tapping anywhere outside the keyboard
         let tap = UITapGestureRecognizer(target: self.view, action:#selector(UIView.endEditing))
@@ -21,7 +25,20 @@ class SignInViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    /**
+     Method that ensure us to do the login correctly asynchronus
+     */
+   
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+          //Name of the segue
+          if identifier == "userProfileSegue" {
+            return false
+          }
+        return false
+      }
+    
+    
+    
     @IBAction func loginPressed(_ sender: Any) {
         let model = LoginModel()
         var loginOk = true
@@ -66,10 +83,18 @@ class SignInViewController: UIViewController {
                     self.pwdTxtField.text = ""
                 }else{
                     //Login ok
-                    
+                    //self.doSegue = true
+                    self.performSegue(withIdentifier: "userProfileSegue", sender: Any?.self)
+                    //self.shouldPerformSegue(withIdentifier: "userProfileSegue", sender: Any?.self)
                 }
             }
         }
+        self.emailTxtField.text = ""
+        self.pwdTxtField.text = ""
+    }
+ 
+    @IBAction func signUpPressed(_ sender: Any) {
+        performSegue(withIdentifier: "signUpSegue", sender: Any?.self)
     }
     
     /**
@@ -101,7 +126,12 @@ class SignInViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        if segue.identifier == "userProfileSegue" {
+            if let nextViewController = segue.destination as? UserProfileViewController {
+                nextViewController.helloLabel.text = "Hello, " + emailTxtField.text! + "!"  //Or pass any values
+            }
+        }
     }
-    */
-
+ */
+    
 }

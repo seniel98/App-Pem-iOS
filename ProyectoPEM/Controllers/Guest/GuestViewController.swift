@@ -9,9 +9,16 @@
 import UIKit
 
 class GuestViewController: UIViewController {
+    
+    var data: TableData?
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+       
+        print(data?.getIdSample())
+        
+        navigationItem.title = "Guest Viewer"
 
         // Do any additional setup after loading the view.
     }

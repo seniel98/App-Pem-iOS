@@ -17,9 +17,12 @@ class LoginModel{
         Auth.auth().signIn(withEmail: email, password: password) {(authResult,error) in
             if(error != nil){
                 //Login fails
+                
                 completion(true,error)
             }else{
-               completion(false,error)
+                print("Login succesful")
+                print(Auth.auth().currentUser?.email)
+                completion(false,error)
             }
         }
     }

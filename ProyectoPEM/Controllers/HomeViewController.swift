@@ -7,12 +7,27 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationItem.title = "Home"
+        
+        if Auth.auth().currentUser != nil {
+            DispatchQueue.main.async {
+                self.goToProfile()
+            }
+        }
+            
+        
         // Do any additional setup after loading the view.
+    }
+    
+    func goToProfile(){
+        navigationController?.pushViewController((storyboard?.instantiateViewController(withIdentifier: "userProfile"))!, animated: true)
     }
 
 
