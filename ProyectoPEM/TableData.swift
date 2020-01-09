@@ -10,6 +10,8 @@ import Foundation
 
 class TableData {
     
+    var userid: String?
+    var idSearch: String?
     var id_expList: [String]!
     var cell_lineList: [String]!
     var gi50List: [String]!
@@ -20,8 +22,10 @@ class TableData {
     
     
     
-    init(id_expList: [String],cell_lineList: [String],gi50List: [String],idSample: String,notes: String, smiles: String, soluble: String ) {
+    init(userid: String, idSearch: String,id_expList: [String],cell_lineList: [String],gi50List: [String],idSample: String,notes: String, smiles: String, soluble: String ) {
 
+        self.userid = userid
+        self.idSearch = idSearch
         self.id_expList = id_expList
         self.cell_lineList = cell_lineList
         self.gi50List = gi50List
@@ -30,6 +34,14 @@ class TableData {
         self.smiles = smiles
         self.soluble = soluble
         
+    }
+    
+    func getUserId()->String{
+        return userid!
+    }
+    
+    func getIdSearch()->String{
+        return idSearch!
     }
     
     func getIdExpList()->[String]{

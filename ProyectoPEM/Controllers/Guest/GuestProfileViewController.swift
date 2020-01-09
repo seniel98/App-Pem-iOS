@@ -87,7 +87,7 @@ class GuestProfileViewController: UIViewController {
         
         if segue.identifier == "guestSearchSegue"{
             if let destinationVC = segue.destination as? GuestViewController {
-                destinationVC.data = self.data		
+                destinationVC.data = self.data
             }
         }
         // Get the new view controller using segue.destination.

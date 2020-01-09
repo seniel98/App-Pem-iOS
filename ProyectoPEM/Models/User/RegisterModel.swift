@@ -21,7 +21,8 @@ class RegisterModel{
            //If user was created
             if let user = authResult?.user{
                 //Add user to users in database and set as a value the email
-                //ref.child("users").child(user.uid).setValue(["email": email])
+                ref.child("users").child(user.uid).setValue(["email": email])
+                ref.child("users").child(user.uid).setValue(["id": ""])
                 completion(false)
         
             }else{

@@ -20,7 +20,7 @@
 		D44210EE23B4CFAE00107B65 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210ED23B4CFAE00107B65 /* LoginModel.swift */; };
 		D44210F223B4CFDA00107B65 /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210F123B4CFDA00107B65 /* RegisterModel.swift */; };
 		D44210F423B4D00D00107B65 /* GuestViewerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210F323B4D00D00107B65 /* GuestViewerModel.swift */; };
-		D44210F623B4D05100107B65 /* UserProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210F523B4D05100107B65 /* UserProfileModel.swift */; };
+		D44210F623B4D05100107B65 /* UserSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210F523B4D05100107B65 /* UserSearchModel.swift */; };
 		D44210F823B4D06800107B65 /* UserViewerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210F723B4D06800107B65 /* UserViewerModel.swift */; };
 		D44210FA23B4D08100107B65 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44210F923B4D08100107B65 /* HomeModel.swift */; };
 		D4438B9223B0EA7600EDE0DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4438B9123B0EA7600EDE0DB /* AppDelegate.swift */; };
@@ -28,6 +28,11 @@
 		D4438B9923B0EA7600EDE0DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4438B9723B0EA7600EDE0DB /* Main.storyboard */; };
 		D4438B9B23B0EA7900EDE0DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4438B9A23B0EA7900EDE0DB /* Assets.xcassets */; };
 		D4438B9E23B0EA7900EDE0DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4438B9C23B0EA7900EDE0DB /* LaunchScreen.storyboard */; };
+		D444B2FA23BE93AC00A20395 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444B2F923BE93AC00A20395 /* QRScannerController.swift */; };
+		D444B2FC23BE9E4E00A20395 /* QRSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D444B2FB23BE9E4E00A20395 /* QRSearchModel.swift */; };
+		D4456E8623BA1DC700289A5A /* GuestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4456E8523BA1DC700289A5A /* GuestTableViewCell.swift */; };
+		D4456E8A23BA64C700289A5A /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4456E8923BA64C700289A5A /* UserTableViewCell.swift */; };
+		D4456E8C23BA67F000289A5A /* UserSearchByIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4456E8B23BA67F000289A5A /* UserSearchByIDViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +49,7 @@
 		D44210ED23B4CFAE00107B65 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		D44210F123B4CFDA00107B65 /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
 		D44210F323B4D00D00107B65 /* GuestViewerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestViewerModel.swift; sourceTree = "<group>"; };
-		D44210F523B4D05100107B65 /* UserProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileModel.swift; sourceTree = "<group>"; };
+		D44210F523B4D05100107B65 /* UserSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchModel.swift; sourceTree = "<group>"; };
 		D44210F723B4D06800107B65 /* UserViewerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewerModel.swift; sourceTree = "<group>"; };
 		D44210F923B4D08100107B65 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		D4438B8E23B0EA7600EDE0DB /* ProyectoPEM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoPEM.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +59,11 @@
 		D4438B9A23B0EA7900EDE0DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4438B9D23B0EA7900EDE0DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4438B9F23B0EA7900EDE0DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D444B2F923BE93AC00A20395 /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRScannerController.swift; path = ../../../../../Downloads/QRCodeReader/QRCodeReader/QRScannerController.swift; sourceTree = "<group>"; };
+		D444B2FB23BE9E4E00A20395 /* QRSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRSearchModel.swift; sourceTree = "<group>"; };
+		D4456E8523BA1DC700289A5A /* GuestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestTableViewCell.swift; sourceTree = "<group>"; };
+		D4456E8923BA64C700289A5A /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		D4456E8B23BA67F000289A5A /* UserSearchByIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchByIDViewController.swift; sourceTree = "<group>"; };
 		D7BC40F767EA16BFF39B7958 /* Pods-ProyectoPEM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoPEM.release.xcconfig"; path = "Target Support Files/Pods-ProyectoPEM/Pods-ProyectoPEM.release.xcconfig"; sourceTree = "<group>"; };
 		FB676B7CCA5C50CDAE796DF1 /* Pods_ProyectoPEM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyectoPEM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -86,6 +96,9 @@
 				D43E4A6523B131830039C254 /* SignUpViewController.swift */,
 				D43E4A6723B131BD0039C254 /* UserProfileViewController.swift */,
 				D43E4A6923B131CC0039C254 /* UserViewController.swift */,
+				D4456E8923BA64C700289A5A /* UserTableViewCell.swift */,
+				D4456E8B23BA67F000289A5A /* UserSearchByIDViewController.swift */,
+				D444B2F923BE93AC00A20395 /* QRScannerController.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -95,6 +108,7 @@
 			children = (
 				D43E4A5F23B131300039C254 /* GuestProfileViewController.swift */,
 				D43E4A6123B1315C0039C254 /* GuestViewController.swift */,
+				D4456E8523BA1DC700289A5A /* GuestTableViewCell.swift */,
 			);
 			path = Guest;
 			sourceTree = "<group>";
@@ -104,8 +118,9 @@
 			children = (
 				D44210ED23B4CFAE00107B65 /* LoginModel.swift */,
 				D44210F123B4CFDA00107B65 /* RegisterModel.swift */,
-				D44210F523B4D05100107B65 /* UserProfileModel.swift */,
+				D44210F523B4D05100107B65 /* UserSearchModel.swift */,
 				D44210F723B4D06800107B65 /* UserViewerModel.swift */,
+				D444B2FB23BE9E4E00A20395 /* QRSearchModel.swift */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -297,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D444B2FC23BE9E4E00A20395 /* QRSearchModel.swift in Sources */,
 				D43E4A6623B131830039C254 /* SignUpViewController.swift in Sources */,
 				D43E4A6A23B131CC0039C254 /* UserViewController.swift in Sources */,
 				D43E4A6023B131300039C254 /* GuestProfileViewController.swift in Sources */,
@@ -304,14 +320,18 @@
 				D44210F823B4D06800107B65 /* UserViewerModel.swift in Sources */,
 				D4438B9623B0EA7600EDE0DB /* HomeViewController.swift in Sources */,
 				D44210EE23B4CFAE00107B65 /* LoginModel.swift in Sources */,
-				D44210F623B4D05100107B65 /* UserProfileModel.swift in Sources */,
+				D44210F623B4D05100107B65 /* UserSearchModel.swift in Sources */,
 				D44210FA23B4D08100107B65 /* HomeModel.swift in Sources */,
 				D44210F423B4D00D00107B65 /* GuestViewerModel.swift in Sources */,
+				D4456E8C23BA67F000289A5A /* UserSearchByIDViewController.swift in Sources */,
+				D4456E8A23BA64C700289A5A /* UserTableViewCell.swift in Sources */,
 				D44210F223B4CFDA00107B65 /* RegisterModel.swift in Sources */,
 				D44210EC23B4CF8F00107B65 /* GuestSearchModel.swift in Sources */,
 				D4438B9223B0EA7600EDE0DB /* AppDelegate.swift in Sources */,
 				D43E4A6423B131730039C254 /* SignInViewController.swift in Sources */,
 				D43E4A6223B1315C0039C254 /* GuestViewController.swift in Sources */,
+				D444B2FA23BE93AC00A20395 /* QRScannerController.swift in Sources */,
+				D4456E8623BA1DC700289A5A /* GuestTableViewCell.swift in Sources */,
 				D43DF36B23B7C34C00AE4A2F /* TableData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
