@@ -59,7 +59,7 @@
 		D4438B9A23B0EA7900EDE0DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4438B9D23B0EA7900EDE0DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4438B9F23B0EA7900EDE0DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D444B2F923BE93AC00A20395 /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QRScannerController.swift; path = ../../../../../Downloads/QRCodeReader/QRCodeReader/QRScannerController.swift; sourceTree = "<group>"; };
+		D444B2F923BE93AC00A20395 /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
 		D444B2FB23BE9E4E00A20395 /* QRSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRSearchModel.swift; sourceTree = "<group>"; };
 		D4456E8523BA1DC700289A5A /* GuestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestTableViewCell.swift; sourceTree = "<group>"; };
 		D4456E8923BA64C700289A5A /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
